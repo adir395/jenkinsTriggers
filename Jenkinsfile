@@ -4,7 +4,7 @@ pipeline {
         maven "MAVEN3.9"
     }
 
-/* */
+/*dd */
     environment {
         registryCredential = 'ecr:eu-north-1:awscreds'
         appRegistry = "084375581933.dkr.ecr.eu-north-1.amazonaws.com/vprofileappimage"
