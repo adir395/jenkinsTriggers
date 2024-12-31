@@ -4,7 +4,7 @@ pipeline {
         maven "MAVEN3.9"
     }
 
-/*dd s*ASDCCCC/
+/**/
     environment {
         registryCredential = 'ecr:eu-north-1:awscreds'
         appRegistry = "084375581933.dkr.ecr.eu-north-1.amazonaws.com/vprofileappimage"
@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Fetch code') {
             steps {
-                git branch: 'docker', url: 'https://github.com/hkhcoder/vprofile-project.git'
+                git branch: 'main', url: 'https://github.com/adir395/jenkinsTriggers.git'
             }
         }
 
