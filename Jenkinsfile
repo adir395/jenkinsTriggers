@@ -9,7 +9,7 @@ pipeline {
         registryCredential = 'ecr:eu-north-1:awscreds'
         appRegistry = "084375581933.dkr.ecr.eu-north-1.amazonaws.com/vprofileappimage"
         vprofileRegistry = "https://084375581933.dkr.ecr.eu-north-1.amazonaws.com"
-        cluster = "jenkinsCluster"
+        cluster = "adirCluster"
         service = "vprofileappsvc"
     }
 
